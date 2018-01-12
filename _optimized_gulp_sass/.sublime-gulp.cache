@@ -1,0 +1,1 @@
+{"D:\\gulp\\_optimized_gulp_sass\\gulpfile.js": {"sha1": "92d4f433975ef09110790b3ca8f9deb3e07f878d", "tasks": {"styles": {"dependencies": "", "name": "styles"}, "default": {"dependencies": "", "name": "default"}, "watch": {"dependencies": "", "name": "watch"}, "scripts": {"dependencies": "", "name": "scripts"}, "browser-sync": {"dependencies": "", "name": "browser-sync"}}}}

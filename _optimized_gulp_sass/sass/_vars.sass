@@ -1,0 +1,53 @@
+@import "bourbon"
+
+.flex
+  display: flex
+.flex-center
+  justify-content: center
+.align-center
+  align-items: center
+.flex-full
+  display: flex
+  justify-content: space-between
+  align-items: center
+.column
+  flex-direction: column
+  align-items: center
+.wrap
+  display: flex
+  justify-content: space-between
+  flex-wrap: wrap
+.text-center
+  text-align: center
+.center
+  margin: auto
+.ulmenu
+	list-style: none
+ 	li
+ 		display: inline-block
+/* миксины */
+@mixin border($color)
+  border: $color 1px solid
+@mixin trs($time)
+  transition: all $time linear
+@mixin psewdo($pos, $left, $top, $bg)
+  content: ''
+  display: block
+  position: $pos
+  top: $top
+  left: $left
+  background: $bg
+@mixin bgi($url, $size, $posi)
+  background-image: url($url)
+  background-repeat: no-repeat
+  background-size: $size
+  background-position: $posi
+@mixin pls($col)
+  &::-webkit-input-placeholder
+    color: $col
+  &::-moz-placeholder
+    color: $col
+  &:-moz-placeholder
+    color: $col
+  &:-ms-input-placeholder
+    color: $col
